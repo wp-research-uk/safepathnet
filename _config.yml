@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts # the website title (if blank, full name will be used instead)
-first_name: Stefano
+first_name: SafePathNet
 middle_name:
-last_name: Pini
+last_name:
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   SafePathNet: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts
