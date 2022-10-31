@@ -28,29 +28,13 @@
         </header>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
-
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
+          <div class="container">
+            <figure class="figure">
+              <img src="assets/img/{{ main_figure_filename }}" class="figure-img img-fluid rounded" alt="{{ main_figure_caption }}">
+              <figcaption class="figure-caption">{{ main_figure_caption }}</figcaption>
+            </figure>
           </div>
-          {%- endif %}
 
           <div class="clearfix">
             {{ content }}
