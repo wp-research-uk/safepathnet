@@ -68,6 +68,13 @@ blockquote {
   left: 0;
 }
 
+h1, h2, h3 {
+  margin-top: 2rem;
+}
+h4, h5, h6 {
+  margin-top: 1rem;
+}
+
 
 // Math
 
@@ -629,7 +636,7 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-theme-color);
+  color: var(--global-code-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;

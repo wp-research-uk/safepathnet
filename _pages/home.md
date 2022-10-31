@@ -59,7 +59,7 @@ main_image:
 
 ## Architecture
 
-{%- assign img_caption = "SafePathNet predicts SDV and road agents future trajectories given a vectorial representation of the input scene." -%}
+{% assign img_caption = "SafePathNet predicts SDV and road agents future trajectories given a vectorial representation of the input scene." %}
 {% include figure.html
   path="assets/img/model.png"
   class="figure-img img-fluid rounded"
