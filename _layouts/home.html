@@ -31,9 +31,9 @@
               <div class="col-12"><sup>{{ affiliation.idx }}</sup>{{ affiliation.name }}</sup></div>
             {% endfor %}
           </div></div>
-          <div class="container text-center text-big mt-2 mb-2"><div class="row"><div class="col-12">
+          <div class="container text-center text-big mt-3 mb-3"><div class="row"><div class="col-12">
             {% for link in page.links %}
-              <a class="ml-2 mr-2" href="{{ link.url }}" {% if link.newtab %}target="_blank"{% endif %}>{{ link.text }}</a>
+              <a class="mx-2" href="{{ link.url }}" {% if link.newtab %}target="_blank"{% endif %}>{{ link.text }}</a>
             {% endfor %}
           </div></div></div>
           {% if page.subtitle %}
