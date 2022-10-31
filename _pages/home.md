@@ -4,16 +4,17 @@ title:   # unused
 permalink: /
 subtitle: <a href='#'>Paper</a> <a href='#'>Code</a> <a href='#'>Video</a> <a href='#'>Poster</a>
 
-profile:
-  align: center
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address:
-
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+
+<div class="container">
+  <figure class="figure">
+    <img src="assets/img/figure_1.png" class="figure-img img-fluid rounded" alt="High-level overview of SafePathNet, a ML approach improving on-road safety of self-driving vehicles (SDVs).">
+    <figcaption class="figure-caption">High-level overview of SafePathNet, a ML approach improving on-road safety of self-driving vehicles (SDVs).</figcaption>
+  </figure>
+</div>
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

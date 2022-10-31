@@ -1,8 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
 
-<!-- home.html -->
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+  {%- endif -%}
+  {% include head.html %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+    {%- /* include header.html */ %}
+
+    <!-- Content -->
+    <div class="container mt-5">
+
+      <!-- home.html -->
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
@@ -63,4 +79,20 @@ layout: default
           {%- endif %}
         </article>
 
-</div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    {%- include footer.html %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
+    {% include scripts/progressBar.html %}
+  </body>
+</html>
