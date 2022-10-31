@@ -56,6 +56,19 @@ blockquote {
   font-size: 2rem;
 }
 
+.video-container {
+  padding-top: 56.25%;
+  position: relative;
+}
+.video-container > iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 // Math
 
 .equation {
@@ -628,7 +641,7 @@ pre {
 }
 
 code {
-  color: var(--global-theme-color);
+  color: var(--global-code-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;

@@ -53,8 +53,8 @@ main_image:
 </p>
 
 ## Road test
-<div class="video-container" style="padding-bottom: 56.25%">
-  <iframe style="width: 100%;height: 100%" src="https://www.youtube-nocookie.com/embed/rLQXKcO20ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container mb-3">
+  <iframe src="https://www.youtube-nocookie.com/embed/rLQXKcO20ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Architecture
