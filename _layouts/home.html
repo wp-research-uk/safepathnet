@@ -21,14 +21,32 @@
           <h1 class="post-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
+          {% for author in page.authors %}
+          <div class="container">
+            <div class="col-3 col-sm-6">{{ author.name }}<sup>{{ author.affiliation }}</sup></div>
+          </div>
+          {% endfor %}
+          {% for affiliation in page.affiliations %}
+          <div class="container">
+            <div class="col-12">{{ affiliation.idx }}{{ affiliation.name }}</sup></div>
+          </div>
+          {% endfor %}
+          {% for link in page.links %}
+          <div class="container">
+            <a class="m-10" href="{{ link.url }}" {% if link.newtab %}target="_blank"{% endif %}>{{ link.text }}</a>
+          </div>
+          {% endfor %}
+          {% if page.subtitle %}
           <p class="desc">{{ page.subtitle }}</p>
+          {% endif %}
         </header>
 
         <article>
 
           <div class="container">
+            {%- assign main_image_path = page.main_image.path | prepend: 'assets/img/' -%}
             {% include figure.html
-              path=page.main_image.path
+              path=main_image_path
               class="figure-img img-fluid rounded"
               alt=page.main_image.caption
               caption=page.main_image.caption %}
