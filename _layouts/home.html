@@ -17,27 +17,27 @@
 
       <!-- home.html -->
       <div class="post">
-        <header class="post-header">
-          <h1 class="post-title text-center mb-2">
+        <header class="post-header pb-3">
+          <h1 class="post-title text-center mb-3">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
-          <div class="container"><div class="row text-big">
+          <div class="container text-center text-big mt-2 mb-2"><div class="row">
             {% for author in page.authors %}
               <div class="col-6 col-md-4">{{ author.name }}<sup>{{ author.affiliation }}</sup></div>
             {% endfor %}
           </div></div>
-          <div class="container"><div class="row">
+          <div class="container text-center mt-2 mb-2"><div class="row">
             {% for affiliation in page.affiliations %}
               <div class="col-12"><sup>{{ affiliation.idx }}</sup>{{ affiliation.name }}</sup></div>
             {% endfor %}
           </div></div>
-          <div class="container"><div class="row">
+          <div class="container text-center text-big mt-2 mb-2"><div class="row"><div class="col-12">
             {% for link in page.links %}
-              <a class="m-2" href="{{ link.url }}" {% if link.newtab %}target="_blank"{% endif %}>{{ link.text }}</a>
+              <a class="ml-2 mr-2" href="{{ link.url }}" {% if link.newtab %}target="_blank"{% endif %}>{{ link.text }}</a>
             {% endfor %}
-          </div></div>
+          </div></div></div>
           {% if page.subtitle %}
-          <p class="desc p-2 mb-3">{{ page.subtitle }}</p>
+          <p class="desc p-2 mb-2">{{ page.subtitle }}</p>
           {% endif %}
         </header>
 
