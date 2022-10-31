@@ -3,16 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts # the website title (if blank, full name will be used instead)
-first_name: SafePathNet
+first_name: Woven Planet Holdings
 middle_name:
 last_name:
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   SafePathNet: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+  Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+keywords: autonomous-driving, self-driving, planning, prediction, safepathnet, woven-planet
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: wp_icon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
