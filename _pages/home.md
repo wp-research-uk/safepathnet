@@ -43,7 +43,7 @@ links:
     newtab: true
 
 main_image:
-  path: method.png
+  path: method.svg
   caption: High-level overview of SafePathNet, a ML approach improving on-road safety of self-driving vehicles (SDVs).
 ---
 
