@@ -53,7 +53,7 @@ main_image:
 </p>
 
 ## Architecture
-{% assign img_caption = "SafePathNet predicts SDV and road agents future trajectories given a vectorial representation of the input scene." %}
+{% assign img_caption = "SafePathNet predicts the future trajectories of both our self-driving vehicle and other agents, given a vectorial representation of the input scene." %}
 {% include figure.html
   path="assets/img/model.png"
   class="figure-img img-fluid rounded"
@@ -61,7 +61,7 @@ main_image:
   caption=img_caption %}
 
 ## Road test
-We evaluated our approach through a realistic simulator and tested it on a real SDV in both our private testing facility and on public roads. Results show that SafePathNet presents a better trade-off between comfort (discomfort braking, passiveness) and safety (collisions) and can be safely deployed in the real world.
+We evaluated our approach through a realistic simulator and tested it on a real SDV in both our private testing facility and on public roads. Results show that SafePathNet presents a better trade-off between comfort (discomfort braking, passiveness) and safety (collisions) and brings us another step closer to our goal of safe real-world autonomous driving.
 
 <div class="video-container mb-3">
   <iframe src="https://www.youtube-nocookie.com/embed/rLQXKcO20ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
