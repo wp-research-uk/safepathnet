@@ -7,8 +7,12 @@ first_name: Woven Planet Holdings
 middle_name:
 last_name:
 email:
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#   SafePathNet: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  SafePathNet: Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts
+  SafePathNet is a unified neural model for prediction and planning. The model learns a distribution over future
+  trajectories that is leveraged to improve the safety of the planner by penalizing SDV plans that could lead to
+  collisions with other road agents.
 footer_text: >
   Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: autonomous-driving, self-driving, planning, prediction, safepathnet, woven-planet
