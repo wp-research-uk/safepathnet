@@ -33,7 +33,7 @@ links:
     text: Paper
     newtab: true
   - url: "https://github.com/woven-planet/l5kit"
-    text: Code
+    text: Code (coming soon)
     newtab: true
   - url: https://youtu.be/rLQXKcO20ck
     text: Video
