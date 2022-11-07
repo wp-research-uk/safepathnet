@@ -29,18 +29,18 @@ affiliations:
     name: Woven Planet North America, Inc
 
 links:
-  - url: #
+  - url: "https://arxiv.org/abs/2211.02131"
     text: Paper
     newtab: true
-  - url: #
+  - url: "https://github.com/woven-planet/l5kit"
     text: Code
-    newtab: false
+    newtab: true
   - url: https://youtu.be/rLQXKcO20ck
     text: Video
     newtab: true
-  - url: #
-    text: Poster
-    newtab: true
+  # - url: "#"
+  #   text: Poster
+  #   newtab: true
 
 main_image:
   path: method.svg
