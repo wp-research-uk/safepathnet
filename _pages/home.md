@@ -28,6 +28,8 @@ affiliations:
   - idx: 2
     name: Woven Planet North America, Inc
 
+conference: NeurIPS 2022 workshop on Machine Learning for Autonomous Driving (ML4AD)
+
 links:
   - url: "https://arxiv.org/abs/2211.02131"
     text: Paper
@@ -65,7 +67,7 @@ If you find our paper or code useful, please cite our work as:
 <pre><code>@article{pini2022safe,
   title={Safe Real-World Autonomous Driving by Learning to Predict and Plan with a Mixture of Experts},
   author={Pini, Stefano and Perone, Christian S and Ahuja, Aayush and Ferreira, Ana Sofia Rufino and Niendorf, Moritz and Zagoruyko, Sergey},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2211.02131},
   year={2022}
 }</code>
 </pre>
