@@ -34,8 +34,8 @@ links:
   - url: "https://arxiv.org/abs/2211.02131"
     text: Paper
     newtab: true
-  - url: "https://github.com/woven-planet/l5kit"
-    text: Code (coming soon)
+  - url: "https://github.com/woven-planet/l5kit/tree/stefanopini/safepathnet"
+    text: Code
     newtab: true
   - url: https://youtu.be/rLQXKcO20ck
     text: Video
